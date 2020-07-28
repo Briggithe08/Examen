@@ -1,0 +1,67 @@
+/*PARA BORDES DE RADIO*/
+#ejemplo{
+	border-radius: 25px;
+}
+/*DISTINTOS BORDES EN CADA ESQUINA*/
+#ejemplo2{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+header{
+	height: 40px;
+	background-color: #C0C0C0;
+	padding-left: 200PX;
+	padding-top: 10PX;
+
+}
+header ul#Inicio li{
+	display: inline;
+	float: right;
+}
+header ul#Inicio li a{
+	text-decoration: none;
+	color: #DC6600;
+	padding-left: 50px;
+	font-family: Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+
+}
+
+div{
+	background-color: #fff;
+	margin: 0px;
+
+}
+.clear{
+	clear: both;
+}
+#Inicio2 a{
+	color: #DC6600;
+	margin: auto;
+	padding-top: 10px;
+
+}
+article{
+	width: 652px;
+	height: 200px;
+	float: left;
+	background-color: #E89F28;
+
+}
+article h1{
+	color: #fff;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,"Times New Roman","serif";
+	padding-left: 20px;
+}
+article ul#Requisitos li{
+	text-indent: 90px;
+}
+aside{
+	width: 352px;
+	height: 200px;
+	margin-left: 652px;
+
+	background-color: #fff;
+
+}
